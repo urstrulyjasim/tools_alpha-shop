@@ -1,0 +1,212 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro",
+      "price": 999.99,
+      "description": "Latest iPhone with Pro camera system and A15 Bionic chip",
+      "image": "images/mobile.jpg",
+      "category": "smartphones",
+      "specs": {
+        "screen": "6.1-inch Super Retina XDR",
+        "storage": "128GB",
+        "camera": "Triple 12MP camera system"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Samsung 4K Smart TV",
+      "price": 799.99,
+      "description": "55-inch 4K Ultra HD Smart LED TV",
+      "image": "images/tv.jpg",
+      "category": "tvs",
+      "specs": {
+        "screen": "55-inch 4K UHD",
+        "resolution": "3840 x 2160",
+        "refresh_rate": "120Hz"
+      }
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro",
+      "price": 1299.99,
+      "description": "13-inch MacBook Pro with M1 chip",
+      "image": "images/laptop.jpg",
+      "category": "laptops",
+      "specs": {
+        "processor": "Apple M1",
+        "memory": "8GB",
+        "storage": "256GB SSD"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sony WH-1000XM4",
+      "price": 349.99,
+      "description": "Wireless Noise-Cancelling Headphones",
+      "image": "images/headphones.jpg",
+      "category": "audio",
+      "specs": {
+        "type": "Over-ear",
+        "battery": "30 hours",
+        "connectivity": "Bluetooth 5.0"
+      }
+    },
+    {
+      "id": 5,
+      "name": "iPad Air",
+      "price": 599.99,
+      "description": "Latest iPad Air with M1 chip",
+      "image": "images/tablet.jpg",
+      "category": "tablets",
+      "specs": {
+        "screen": "10.9-inch Liquid Retina",
+        "chip": "M1",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dell XPS 13",
+      "price": 999.99,
+      "description": "13-inch Premium Ultrabook",
+      "image": "images/ultrabook.jpg",
+      "category": "laptops",
+      "specs": {
+        "processor": "Intel i7",
+        "memory": "16GB",
+        "storage": "512GB SSD"
+      }
+    },
+    {
+      "id": 7,
+      "name": "PlayStation 5",
+      "price": 499.99,
+      "description": "Next-gen gaming console",
+      "image": "images/console.jpg",
+      "category": "gaming",
+      "specs": {
+        "storage": "825GB SSD",
+        "resolution": "4K",
+        "fps": "Up to 120fps"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Canon EOS R6",
+      "price": 2499.99,
+      "description": "Full-frame mirrorless camera",
+      "image": "images/camera.jpg",
+      "category": "cameras",
+      "specs": {
+        "sensor": "20.1MP Full-frame",
+        "autofocus": "Dual Pixel CMOS AF II",
+        "stabilization": "5-axis IBIS"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Apple Watch Series 7",
+      "price": 399.99,
+      "description": "Latest Apple Watch with larger display",
+      "image": "images/smartwatch.jpg",
+      "category": "wearables",
+      "specs": {
+        "display": "Always-On Retina",
+        "size": "45mm",
+        "water_resistance": "50m"
+      }
+    },
+    {
+      "id": 10,
+      "name": "LG OLED C1",
+      "price": 1799.99,
+      "description": "65-inch 4K OLED Smart TV",
+      "image": "images/tv.jpg",
+      "category": "tvs",
+      "specs": {
+        "screen": "65-inch OLED",
+        "processor": "α9 Gen 4 AI",
+        "hdr": "Dolby Vision IQ"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Bose QuietComfort Earbuds",
+      "price": 279.99,
+      "description": "True wireless noise cancelling earbuds",
+      "image": "images/earbuds.jpg",
+      "category": "audio",
+      "specs": {
+        "type": "In-ear",
+        "battery": "6 hours",
+        "charging_case": "Additional 12 hours"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Samsung Galaxy S21",
+      "price": 799.99,
+      "description": "5G smartphone with pro-grade camera",
+      "image": "images/mobile.jpg",
+      "category": "smartphones",
+      "specs": {
+        "screen": "6.2-inch Dynamic AMOLED",
+        "processor": "Snapdragon 888",
+        "camera": "64MP telephoto"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Microsoft Surface Laptop 4",
+      "price": 999.99,
+      "description": "Premium touchscreen laptop",
+      "image": "images/ultrabook.jpg",
+      "category": "laptops",
+      "specs": {
+        "processor": "AMD Ryzen 5",
+        "memory": "8GB",
+        "storage": "256GB SSD"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Nintendo Switch OLED",
+      "price": 349.99,
+      "description": "Gaming console with OLED display",
+      "image": "images/console.jpg",
+      "category": "gaming",
+      "specs": {
+        "screen": "7-inch OLED",
+        "storage": "64GB",
+        "battery": "4.5-9 hours"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Samsung Galaxy Tab S7+",
+      "price": 849.99,
+      "description": "Premium Android tablet",
+      "image": "images/tablet.jpg",
+      "category": "tablets",
+      "specs": {
+        "screen": "12.4-inch Super AMOLED",
+        "processor": "Snapdragon 865+",
+        "memory": "6GB"
+      }
+    },
+    {
+      "id": 16,
+      "name": "GoPro HERO10 Black",
+      "price": 499.99,
+      "description": "Advanced action camera",
+      "image": "images/action-cam.jpg",
+      "category": "cameras",
+      "specs": {
+        "resolution": "5.3K60",
+        "sensor": "23.6MP",
+        "stabilization": "HyperSmooth 4.0"
+      }
+    }
+  ]
+}
