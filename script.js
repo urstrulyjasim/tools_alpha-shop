@@ -129,147 +129,9 @@ function showProductDetails(product) {
     document.body.appendChild(modal);
 }
 
-// Initial product data - will be replaced by fetchProducts()
-products = [
-    // TVs Category
-    {
-        id: 1,
-        name: "4K Smart TV",
-        price: 87999,
-        image: "images/tv.jpg",
-        description: "65-inch 4K Ultra HD Smart LED TV",
-        category: "TVs"
-    },
-    {
-        id: 2,
-        name: "Gaming Monitor",
-        price: 54999,
-        image: "images/monitor.jpg",
-        description: "32-inch 4K Gaming Monitor",
-        category: "TVs"
-    },
-    // Laptops Category
-    {
-        id: 3,
-        name: "Gaming Laptop",
-        price: 164999,
-        image: "images/gaming-laptop.jpg",
-        description: "RTX 3080, 16GB RAM",
-        category: "Laptops"
-    },
-    {
-        id: 4,
-        name: "Ultrabook",
-        price: 142999,
-        image: "images/ultrabook.jpg",
-        description: "Thin & Light, 1TB SSD",
-        category: "Laptops"
-    },
-    // Phones & Tablets Category
-    {
-        id: 5,
-        name: "Premium Smartphone",
-        price: 109999,
-        image: "images/phone.jpg",
-        description: "256GB, Pro Camera System",
-        category: "phones"
-    },
-    {
-        id: 6,
-        name: "Pro Tablet",
-        price: 87999,
-        image: "images/tablet.jpg",
-        description: "12.9-inch Display, 256GB",
-        category: "phones"
-    },
-    // Audio Category
-    {
-        id: 7,
-        name: "Wireless Earbuds",
-        price: 27499,
-        image: "images/earbuds.jpg",
-        description: "Active Noise Cancellation",
-        category: "Audio"
-    },
-    {
-        id: 8,
-        name: "Premium Headphones",
-        price: 38499,
-        image: "images/headphones.jpg",
-        description: "Wireless Noise Cancelling",
-        category: "Audio"
-    },
-    // Gaming Category
-    {
-        id: 9,
-        name: "Gaming Console",
-        price: 54999,
-        image: "images/console.jpg",
-        description: "Next-Gen Gaming Console",
-        category: "Gaming"
-    },
-    {
-        id: 10,
-        name: "Gaming Headset",
-        price: 14299,
-        image: "images/headset.jpg",
-        description: "7.1 Surround Sound",
-        category: "Gaming"
-    },
-    // Accessories Category
-    {
-        id: 11,
-        name: "Wireless Mouse",
-        price: 8799,
-        image: "images/mouse.jpg",
-        description: "Gaming Grade Sensor",
-        category: "accessories"
-    },
-    {
-        id: 12,
-        name: "Mechanical Keyboard",
-        price: 16499,
-        image: "images/keyboard.jpg",
-        description: "RGB Mechanical Switches",
-        category: "accessories"
-    },
-    // Smart Home Category
-    {
-        id: 13,
-        name: "Smart Hub",
-        price: 14299,
-        image: "images/smarthub.jpg",
-        description: "Control Your Home",
-        category: "smart-home"
-    },
-    {
-        id: 14,
-        name: "Smart Doorbell",
-        price: 21999,
-        image: "images/doorbells.jpg",
-        description: "HD Camera with Night Vision",
-        category: "smart-home"
-    },
-    // Cameras Category
-    {
-        id: 15,
-        name: "Action Camera",
-        price: 43999,
-        image: "images/action-cam.jpg",
-        description: "4K 60fps Waterproof",
-        category: "cameras"
-    },
-    {
-        id: 16,
-        name: "Security Camera",
-        price: 32999,
-        image: "images/camera-security.jpg",
-        description: "1080p Night Vision",
-        category: "cameras"
-    }
-];
 
-// Shopping cart state
+
+// ekhane shipping cost are coupon er kaj korechi
 let cart = [];
 const SHIPPING_COST = 9.99;
 const COUPON_CODES = {
@@ -301,7 +163,7 @@ closeSidebarBtn.addEventListener('click', () => {
     mobileSidebar.classList.add('translate-x-full');
 });
 
-// Cart sidebar functionality
+// Cart sidebar
 const cartBtn = document.getElementById('cartBtn');
 const cartSidebar = document.getElementById('cartSidebar');
 const closeCartBtn = document.getElementById('closeCartBtn');
@@ -316,7 +178,6 @@ closeCartBtn.addEventListener('click', () => {
 
 
 
-// Initialize products and category filter
 function initializeProducts(category = 'all') {
     if (products.length === 0) return; // Don't initialize if products haven't been fetched yet
 
@@ -528,7 +389,7 @@ function updateTotals() {
     totalEl.textContent = `৳${(finalTotal * 110).toFixed(0)}`;
 }
 
-// Coupon codes
+
 const couponCodes = {
     'NAZIMSIR': 0.10  // 10% discount
 };
